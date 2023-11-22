@@ -1,13 +1,13 @@
 
 
 
-const myArray=[];
-console.log(myArray);
+// const myArray=[];
+// console.log(myArray);
 
-myArray[0]='duttu'
-myArray[1]='vijay'
-myArray[2]=111
-myArray[3]=true
+// myArray[0]='duttu'
+// myArray[1]='vijay'
+// myArray[2]=111
+// myArray[3]=true
 
 // console.log(myArray);
 // console.log(myArray.length);
@@ -40,10 +40,33 @@ myArray[3]=true
 // console.log(firstName);
 
 
-console.log(myArray)
-myArray.splice(2,1);
-console.log(myArray)
+// console.log(myArray)
+// myArray.splice(2,1);
+// console.log(myArray)
 
 // delete myArray[2]; 
 // console.log(myArray);
+ 
+const gfg = () => {
+    console.log( "Hi from GeekforGeeks!" );
+}
+ 
+gfg();
 
+function myFunction() {
+    console.log( "Hi from GeekforGeeks 111!" );
+  }
+  myFunction();
+  
+
+  let sec = () => {
+    console.log("thankyou");
+  }
+  sec();
+
+  function daa() {
+    let a = 1
+    return a
+  }
+
+  daa()
